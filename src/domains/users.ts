@@ -7,7 +7,7 @@ export default class UserDomain {
     this.password = password;
   }
 
-  getUsername(): User["username"] {
+  getUsername(): User['username'] {
     return this.username;
   }
 
@@ -15,7 +15,7 @@ export default class UserDomain {
     this.username = username;
   }
 
-  getPassword(): User["password"] {
+  getPassword(): User['password'] {
     return this.password;
   }
 
